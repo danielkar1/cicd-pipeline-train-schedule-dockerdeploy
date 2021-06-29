@@ -32,7 +32,7 @@ pipeline {
                         app.push("latest")
                     }
                 }
-         stage ('DeployToProduction') {
+         stage('DeployToProduction') {
     when {
         branch 'master'
     }
